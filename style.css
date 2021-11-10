@@ -1,0 +1,119 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #24272e;
+  color: white;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family:'Source Code Pro', monospace;
+  color: #ffcc99;
+}
+
+a:hover {
+  color: #ffba76;
+}
+
+header {
+  background: #030941;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.score-board {
+  border: 3px solid #fff;
+  width: 300px;
+  height: 20px;
+  margin: 100px auto;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background: #e2584d;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 6px
+}
+
+#user-label {
+  position: absolute;
+  top: 12%;
+  left: -7%;
+  border-radius: 4px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 12%;
+  right: -7%;
+  border-radius: 4px;
+}
+
+.result {
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.choices {
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.choice {
+  display: inline-block;
+  border:  3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: auto 10px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.choice img {
+  filter: invert(100%);
+}
+
+#action-message {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 40px 0;
+}
+
+.winningStyles {
+  border: 3px solid #23DA04;
+  background: #043507;
+  box-shadow: 0 0 20px #043507;
+}
+
+.losingStyles {
+  border: 3px solid #c52e2e;
+  background: #2e0303;
+  box-shadow: 0 0 20px #2e0303;
+}
+
+.drawStyles {
+  border: 3px solid #444;
+  background: #222;
+  box-shadow: 0 0 20px #222;
+}
